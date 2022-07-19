@@ -4,7 +4,7 @@
 			<Button text="Say Hello" width="100px" id="__button0" press="SayHello"/>
 			<Page title="{i18n>title}">
 				<content>
-					<Button text="Say Hello!" press="SayHello"></Button> 
+					<Button text="Say Hello!!" press="SayHello"></Button> 
 				</content>
 			</Page>
 		</pages>
