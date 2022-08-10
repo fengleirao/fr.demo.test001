@@ -13,7 +13,7 @@ sap.ui.define([
 				firstStatus: "A",
 				secondStatus: "B",
 				thirdStatus: "C", 
-				fourthStatus: "D",
+				fourthStatus: "D", 
 
 			});
 			this.getView().setModel(oModel); 
