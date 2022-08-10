@@ -16,7 +16,7 @@ sap.ui.define([
 				fourthStatus: "D",
 
 			});
-			this.getView().setModel(oModel);
+			this.getView().setModel(oModel); 
 			
 			this.dateFormatter();
 			
