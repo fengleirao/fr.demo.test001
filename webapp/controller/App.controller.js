@@ -12,7 +12,7 @@ sap.ui.define([
 			var oModel = new JSONModel({
 				firstStatus: "A",
 				secondStatus: "B",
-				thirdStatus: "C",
+				thirdStatus: "C", 
 				fourthStatus: "D",
 
 			});
