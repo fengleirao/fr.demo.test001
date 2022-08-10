@@ -1,10 +1,24 @@
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fr.demo.test001.controller.App" displayBlock="true">
 	<App>
 		<pages>
-			<Button text="Say Hello" width="100px" id="__button0" press="SayHello"/>
+			<!--<Button text="Say Hello" width="100px" id="__button0" press="SayHello"/>-->
 			<Page title="{i18n>title}">
 				<content>
 					<Button text="Say Hello!!" press="SayHello"></Button> 
+					<Input value="{path: '/firstStatus', formatter:'.formatter.statusText'}" />
+					
+					<Input value="{path: 'number>/floatNumber1' }" />
+					<Input value="{path: 'number>/floatNumber2' }" />
+					<Input value="{path: 'number>/floatNumber3' }" />
+					<Input value="{path: 'number>/floatNumber4' }" />
+					
+					
+					<Input value="{path: 'number1>/number', type:'sap.ui.model.type.Integer', formatOptions:{minIntegerDigits:3} }" />
+					
+					<FormattedText htmlText="{html>/HTML}"></FormattedText>
+					
+					<Button text="Popover Fragment" press="showPopoverFragment"></Button> 
+					
 				</content>
 			</Page>
 		</pages>
