@@ -14,7 +14,7 @@ sap.ui.define([
 				secondStatus: "B",
 				thirdStatus: "C",  
 				fourthStatus: "D",  
-				//test
+				//test Git
 			});
 			this.getView().setModel(oModel); 
 			
